@@ -115,6 +115,25 @@ body {
 
 /* Media Query for screens smaller than 600px */
 @media (max-width: 600px) {
+    header, .nav-links, .top-bar, .second-bar, .third-bar, .fourth-bar, .content-container {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .name-title h1 {
+        font-size: 1.8em; /* Adjust for mobile readability */
+    }
+
+    .subtitle {
+        font-size: 1em; /* Adjust for mobile readability */
+    }
+
+    .nav-button {
+        padding: 8px 16px; /* Adjust button size for mobile */
+    }
+    
     .name-title {
         margin-left: 0; /* Adjust for smaller screens */
         margin-top: 50px; /* Adjust for smaller screens */
