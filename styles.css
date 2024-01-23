@@ -113,24 +113,36 @@ body {
     font-size: 3rem; /* Use 'rem' for scalable font size */
 }
 
-/* Media query for screens smaller than 600px */
+/* Media Query for screens smaller than 600px */
 @media (max-width: 600px) {
-    .nav-links {
-        position: static;
-        display: block;
+    .name-title {
+        margin-left: 0; /* Adjust for smaller screens */
+        margin-top: 50px; /* Adjust for smaller screens */
         text-align: center;
     }
 
-    .nav-button {
-        display: inline-block; /* Stack buttons vertically */
-        width: auto; /* Auto width for full width buttons */
-        margin: 0.5rem; /* Adjust margin for smaller screens */
+    .name-title h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
     }
 
-    .name-title {
-        margin-left: 0; /* Align title for small screens */
-        text-align: center; /* Center the title */
+    .subtitle {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+        margin-top: 0;
     }
 
-    /* Adjust other styles as needed for smaller screens */
+    .nav-links {
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .top-bar, .second-bar, .third-bar, .fourth-bar {
+        width: 100%; /* Full width on mobile */
+        margin-left: 0; /* Adjust margin */
+    }
+
+    .content-container {
+        margin-top: 0; /* Adjust container margin */
+        margin-left: 0; /* Adjust container margin */
+    }
 }
