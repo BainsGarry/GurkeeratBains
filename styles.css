@@ -97,3 +97,40 @@ header {
     padding: 8px 18px; /* Adjust padding to compensate for the border thickness */  
    
 }
+
+body {
+    /* ... existing styles ... */
+    font-size: 16px; /* Base font size for easy scaling */
+}
+
+.nav-button {
+    /* ... existing styles ... */
+    padding: 0.625rem 1.25rem; /* Use 'rem' for scalable padding */
+}
+
+.name-title h1 {
+    /* ... existing styles ... */
+    font-size: 3rem; /* Use 'rem' for scalable font size */
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .nav-links {
+        position: static;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-button {
+        display: inline-block; /* Stack buttons vertically */
+        width: auto; /* Auto width for full width buttons */
+        margin: 0.5rem; /* Adjust margin for smaller screens */
+    }
+
+    .name-title {
+        margin-left: 0; /* Align title for small screens */
+        text-align: center; /* Center the title */
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+}
