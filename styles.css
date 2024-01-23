@@ -5,20 +5,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5dc; /* Cream color */
-    color: #333;
+    color: #cccc99;
 }
-
-/* Header Styling */
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* ... (previous CSS code) ... */
 
 .name-title h1 {
     margin: 0;
