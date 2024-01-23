@@ -18,6 +18,42 @@ header {
     align-items: center;
 }
 
+/* ... (previous CSS code) ... */
+
+.name-title h1 {
+    margin: 0;
+    font-size: 2.5em; /* Larger text for the name */
+    color: #050533; /* Dark blue color for the name */
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #00008b; /* Dark blue color for the subtitle */
+}
+
+/* ... (rest of the CSS code) ... */
+
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 25px; /* 25 pixels padding on the left and right */
+    background-color: #cccc99; /* Cream color */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    color: #333; /* Change text color to dark for visibility */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Remove black background */
+}
+
 .name-title {
     margin-left: 20px; /* Adjusts position from top left */
 }
@@ -25,9 +61,10 @@ header {
 .name-title h1 {
     margin: 0;
     font-size: 2.5em; /* Larger text for the name */
+    color: #00008b; /* Dark blue color for the name */
 }
 
 .subtitle {
     font-size: 1.2em;
-    color: #ddd;
+    color: #00008b; /* Dark blue color for the subtitle */
 }
