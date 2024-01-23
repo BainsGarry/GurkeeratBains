@@ -3,32 +3,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
-    background-color: #f5f5dc; /* Cream color */
-    color: #cccc99;
-}
-
-.name-title h1 {
-    margin: 0;
-    font-size: 2.5em; /* Larger text for the name */
-    color: #050533; /* Dark blue color for the name */
-}
-
-.subtitle {
-    font-size: 1.2em;
-    color: #00008b; /* Dark blue color for the subtitle */
-}
-
-/* ... (rest of the CSS code) ... */
-
-
-/* General Body Styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
     padding: 0 25px; /* 25 pixels padding on the left and right */
-    background-color: #cccc99; /* Cream color */
+    background-color: #fffdd0; /* Cream color */
     color: #333;
 }
 
@@ -43,16 +19,81 @@ header {
 }
 
 .name-title {
-    margin-left: 20px; /* Adjusts position from top left */
+    margin-left: 300px; /* Adjusts position from top left */
+    margin-top: 100px
 }
 
 .name-title h1 {
     margin: 0;
-    font-size: 2.5em; /* Larger text for the name */
-    color: #00008b; /* Dark blue color for the name */
+    font-size: 6em; /* Larger text for the name */
+    color: #5e5e5e; /* Dark blue color for the name */
 }
 
 .subtitle {
-    font-size: 1.2em;
-    color: #00008b; /* Dark blue color for the subtitle */
+    margin-left: 8px;
+    margin-top: -20px;
+    font-size: 2.5em;
+    color: #5e5e5e; /* Dark blue color for the subtitle */
+}
+
+.top-bar, .second-bar, .third-bar, .fourth-bar {
+    background-color: #5e5e5e; /* Uniform color for all bars */
+    width: 58%;
+    margin-left: 280px;
+}
+
+.top-bar {
+    margin-top: 20px;
+    height: 17px;
+}
+
+.second-bar {
+    margin-top: 3px; /* Space between bars */
+    height: 8px; /* Slightly thinner */
+}
+
+.third-bar {
+    margin-top: 3px;
+    height: 4.5px; /* Even thinner */
+}
+
+.fourth-bar {
+    margin-top: 3px;
+    height: 2px; /* Thinnest bar */
+}
+
+.content-container {
+    margin-top: -125px; /* Adjust this as needed for your layout */
+    margin-left: -30px; /* Adjust this as needed for your layout */
+    /* Add any other styles you want for the main content */
+}
+
+.nav-links {
+    position: absolute;
+    top: 12px;
+    left: 78%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.nav-button {
+    background-color: #fffdd0;
+    color: #5e5e5e;
+    text-decoration: none;
+    padding: 8px 25px;
+    margin: 7.5px 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 2px solid transparent; /* Invisible border for normal state */
+    padding: 10px 20px; /* Adjust padding to account for border size */
+}
+
+.nav-button:hover {
+    border: 2px solid #5e5e5e; /* Visible border on hover */
+}
+
+.nav-button.active {
+    border: 2px solid #4b4b4b; /* Solid border for active button */
+    padding: 8px 18px; /* Adjust padding to compensate for the border thickness */  
+   
 }
